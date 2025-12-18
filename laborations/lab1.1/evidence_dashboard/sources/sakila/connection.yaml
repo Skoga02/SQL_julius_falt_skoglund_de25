@@ -6,3 +6,4 @@ options:
 tables:
   - category_revenue
   - top_customer
+  - actor_revenue
