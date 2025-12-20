@@ -16,4 +16,6 @@ limit 10;
     y="total_spent"
     title="Top 10 Customers by Total Spend"
     swapXY={true}
+    labels=true
+    labelFmt=usd0
 />

@@ -14,4 +14,8 @@ limit 10;
     y="total_revenue"
     title="Top 10 Actors by total revenue"
     swapXY = true
+    labels=true
+    labelFmt=usd0
 />
+
+This data was sourced from Sakila movie rentals<Info description="sakila.movierentals.com" />

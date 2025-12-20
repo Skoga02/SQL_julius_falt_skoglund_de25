@@ -14,5 +14,7 @@ order by total_revenue desc;
     y="total_revenue"
     title="Total Revenue per Film Category"
     swapXY = true
+    labels=true
+    labelFmt=usd0
 />
 
