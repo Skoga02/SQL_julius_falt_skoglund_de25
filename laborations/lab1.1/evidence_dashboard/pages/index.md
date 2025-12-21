@@ -9,7 +9,7 @@ This dashboard provides an overview of key revenue sources across our movie rent
 These insights form a foundtaion fot the future business and strategic planning for 2026. 
 
 
-
+<!-- Found this pie chart query structure on evidences own webpage. -->
 ```sql pie_query
 select 'Actors' as pie, 200 as count
 union all
@@ -22,9 +22,6 @@ select 'Categories' as pie, 16 as count
 select pie as name, count as value
 from ${pie_query}
 ```
-
-
-# Size of the business in a procent
 
 
 <ECharts config={
